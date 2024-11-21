@@ -1,7 +1,7 @@
 /* Reseteo de márgenes y paddings para todos los elementos */
 * {
-    margin: 20px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
     box-sizing: border-box;
   }
   
