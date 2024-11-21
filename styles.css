@@ -1,14 +1,44 @@
 /* Reseteo de márgenes y paddings para todos los elementos */
 * {
-    margin: 10px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Estilo global para el cuerpo de la página */
-  body {
+}
+
+/* Estilo global para el cuerpo de la página */
+body {
     font-family: 'Segoe UI', system-ui, sans-serif;
     background-color: #f5f5f5;
     text-decoration: none;
-  }
-  
+}
+
+/* Estilos para el nav */
+nav {
+    background-color: #333; /* Fondo oscuro para el nav */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar elementos horizontalmente */
+}
+
+/* Estilo para los enlaces dentro del nav */
+nav a {
+    display: inline-block; /* Hace que los enlaces se comporten como bloques en línea */
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Elimina subrayados */
+    margin: 0 15px; /* Espaciado entre enlaces */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #555; /* Fondo gris para los enlaces */
+    transition: background-color 0.3s ease; /* Transición suave en el hover */
+}
+
+/* Cambia el color de fondo al pasar el mouse */
+nav a:hover {
+    background-color: #777;
+}
+
+/* Ajusta el texto al tamaño del dispositivo */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
